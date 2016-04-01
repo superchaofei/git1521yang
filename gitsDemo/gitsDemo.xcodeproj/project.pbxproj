@@ -13,6 +13,7 @@
 		BC4DFCE42430BC2E0059B027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4DFCE22430BC2E0059B027 /* Main.storyboard */; };
 		BC4DFCE62430BC2E0059B027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4DFCE52430BC2E0059B027 /* Assets.xcassets */; };
 		BC4DFCE92430BC2E0059B027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4DFCE72430BC2E0059B027 /* LaunchScreen.storyboard */; };
+		BC4DFCF72430BC2E0059B027 /* presonA.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4DFCF62430BC2E0059B027 /* presonA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BC4DFCE52430BC2E0059B027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC4DFCE82430BC2E0059B027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC4DFCEA2430BC2E0059B027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4DFCF52430BC2E0059B027 /* presonA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = presonA.h; sourceTree = "<group>"; };
+		BC4DFCF62430BC2E0059B027 /* presonA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = presonA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		BC4DFCD82430BC2E0059B027 /* gitsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BC4DFCF42430BC2E0059B027 /* a */,
 				BC4DFCDC2430BC2E0059B027 /* AppDelegate.h */,
 				BC4DFCDD2430BC2E0059B027 /* AppDelegate.m */,
 				BC4DFCDF2430BC2E0059B027 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				BC4DFCDA2430BC2E0059B027 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC4DFCF42430BC2E0059B027 /* a */ = {
+			isa = PBXGroup;
+			children = (
+				BC4DFCF52430BC2E0059B027 /* presonA.h */,
+				BC4DFCF62430BC2E0059B027 /* presonA.m */,
+			);
+			name = a;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC4DFCF72430BC2E0059B027 /* presonA.m in Sources */,
 				BC4DFCE12430BC2E0059B027 /* ViewController.m in Sources */,
 				BC4DFCDE2430BC2E0059B027 /* AppDelegate.m in Sources */,
 				BC4DFCDB2430BC2E0059B027 /* main.m in Sources */,
@@ -298,6 +312,7 @@
 				BC4DFCEF2430BC2E0059B027 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
